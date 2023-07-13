@@ -8,6 +8,7 @@ import time
 
 
 st.title("Streamlit Dashboard Demo")
+st.sidebar.title("This is sidebar")
 
 
 
