@@ -7,7 +7,7 @@ import sys
 import time
 
 
-st.title("Streamlit Dashboard Demo")
+st.title("Streamlit Dashboard Demo - 1")
 st.sidebar.title("This is sidebar")
 
 
