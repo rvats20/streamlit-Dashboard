@@ -14,6 +14,19 @@ st.title("My First Streamlit Dashboard")
 st.sidebar.header("Settings")
 slider_value = st.sidebar.slider("Select a value", 1, 100, 50)
 
+placeholder = st.empty()
+
+while True:
+    data = fetch_data()
+    btc_price = data['bpi']['USD']['rate']
+    timestamp = data['time']['updated']
+
+    with placeholder.container():
+        st.write(f"**Bitcoin Price (USD):** ${btc_price}")
+        st.write(f"**Last Updated:** {timestamp}")
+
+    time.sleep(60)  # Update every 60 seconds
+
 # Generate some data based on the slider value
 data = pd.DataFrame({
     'x': np.arange(1, slider_value + 1),
