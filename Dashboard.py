@@ -8,7 +8,8 @@ import time
 
 
 # Set the title of the dashboard
-st.title("My First Streamlit Dashboard")
+st.title('Real-Time Cryptocurrency Prices')
+st.subheader('Data from CoinDesk API')
 
 # Create a sidebar with a slider
 st.sidebar.header("Settings")
