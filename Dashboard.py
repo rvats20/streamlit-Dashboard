@@ -38,7 +38,10 @@ data = pd.DataFrame({
 st.line_chart(data)
 
 # Display the slider value
-st.write("Slider value:", slider_value)
+st.write("Slider value:", slider_ve)
+
+
+
 
 
 
