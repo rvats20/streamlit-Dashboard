@@ -13,7 +13,7 @@ st.subheader('Data from CoinDesk API')
 
 # Create a sidebar with a slider
 st.sidebar.header("Settings")
-slider_value = st.sidebar.slider("Select a value", 1, 100, 50)
+slider_value = st.sidebar.slider("Select a value", 1, 100, 50, 25)
 
 placeholder = st.empty()
 
