@@ -1,6 +1,3 @@
-Sure, I'd be happy to help you create a README page for your Streamlit dashboard GitHub repository! Here's a template you can use and customize according to your project's specifics:
-
----
 
 # Streamlit Dashboard
 
