@@ -68,6 +68,4 @@ Contributions are welcome! Please follow these steps to contribute:
 
 This project is licensed under the Apache License - see the LICENSE file for details.
 
-## Contact
 
-For any questions or feedback, please contact Rahul at rahul.rkumar23@gmail.com
