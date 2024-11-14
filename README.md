@@ -1,7 +1,7 @@
 
 # Streamlit Dashboard
 
-Welcome to the Streamlit Dashboard repository! This project is designed to provide a simple streamlit dashboard.
+Welcome to the Streamlit Dashboard repository! This project is designed to provide a simple streamlit dashboard building and displaying the data in real time..
 
 ## Table of Contents
 
