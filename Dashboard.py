@@ -11,6 +11,13 @@ import time
 st.title('Real-Time Cryptocurrency Prices')
 st.subheader('Data from CoinDesk API')
 
+# Function to get crypto prices
+def get_crypto_price(crypto):
+    url = f"https://min-api.cryptocompare.com/data/price?fsym={crypto}&tsyms=USD"
+    response = requests.get(url)
+    data = response.json()
+    return data['USD']
+
 # Create a sidebar with a slider
 st.sidebar.header("Settings")
 slider_value = st.sidebar.slider("Select a value", 1, 100, 50)
@@ -33,6 +40,7 @@ data = pd.DataFrame({
     'x': np.arange(1, slider_value + 1),
     'y': np.random.randn(slider_value).cumsum()
 })
+
 
 # Display the line chart
 st.line_chart(data)
